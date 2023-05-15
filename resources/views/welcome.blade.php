@@ -28,5 +28,25 @@
         @else
         <p>O nome não é {{ $nome }}</p>
         @endif
+        
+        @for ($i = 0; $i < count($arr); $i++)
+        <p>{{ $arr[$i] }}</p>
+        @if ($i == 2)
+            <p> o indice é 2 </p>
+        @endif
+        @endfor
+
+        @foreach($nomes as $names)
+        <br>
+        <p>{{ $loop->index }}</p>
+            <p>{{ $names }}</p>
+        @endforeach
+        
+        <br>
+        @php
+            $name = 'Arthur';
+            echo $name;
+        @endphp
+
     </body>
 </html>

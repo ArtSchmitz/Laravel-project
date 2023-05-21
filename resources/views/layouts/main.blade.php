@@ -19,6 +19,26 @@
         
     </head>
     <body class="main">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="collapse navbar-collapse" id="nav">
+                    <a href="" class="navbar-brand">
+                        <img src="" alt="">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Criar Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Entrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         @yield('content')
         <footer>ART Events &copy; 2023</footer>
     </body>

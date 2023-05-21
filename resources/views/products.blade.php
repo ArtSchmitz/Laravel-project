@@ -6,4 +6,8 @@
 
 <h1>Produtos</h1>
 
+@if($busca != '')
+<p>O Usuário está procurando por {{ $busca }}</p>
+@endif
+
 @endsection

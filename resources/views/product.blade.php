@@ -4,8 +4,4 @@
 
 @section('content')
 
-@if($id != null) 
-    <p>Produto id: {{ $id }}</p>
-@endif
-
 @endsection

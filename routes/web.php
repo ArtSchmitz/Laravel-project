@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+<<<<<<< Updated upstream
     
     $nome = 'Arthur';
     $idade = 19;
@@ -30,4 +31,7 @@ Route::get('/produtos_teste/{id?}', function ($id = null) {
 
     return view('product', ['id' => $id]);
 
+=======
+    echo 'Olá Mundo';
+>>>>>>> Stashed changes
 });

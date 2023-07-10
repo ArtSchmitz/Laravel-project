@@ -14,12 +14,8 @@ class SeriesController extends Controller
             'Manifest'
         ];
 
-        $html = '<ul>';
-        foreach ($series as $serie) {
-            $html .= "<li>$serie</li>";
-        }
-        $html .= '</ul>';
-
-        return $html;
+        return view('series.index', [
+            'series' => $series
+        ]);
     }
 }

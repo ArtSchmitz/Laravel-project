@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $title }} - Controle de séries</title>
+    <link href="{{ asset('css/app.scss') }}" rel="stylesheet">
 </head>
 <body>
     <h1>{{ $title }}</h1>
